@@ -7,7 +7,7 @@
 }
 body{
   /* position: relative; */
-  background-image: url('bg1.jpg');
+  background-image: url('forest.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -35,7 +35,9 @@ h1{
 .carousel1, .carousel2, .carousel3, .carousel4,
   .carousel5, .carousel6, .carousel7, .carousel8,
   .carousel9, .carousel10, .carousel11, .carousel12,
-  .carousel13, .carousel14, .carousel15{
+  .carousel13, .carousel14, .carousel15, .carousel6,
+  .carousel17, .carousel18, .carousel19, .carouse20,
+  .carousel21, .carousel22, .carousel23{
   height: 100vh;
   position: relative;
   background-color: transparent;
