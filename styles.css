@@ -67,14 +67,27 @@ h1 span {
   transform: translate(-50%, -50%); */
 
 }
-
 span{
+  cursor: pointer;
+}
+
+.pages span::after{
   /* text-decoration: underline; */
   /* text-decoration-color: grey; */
-  text-shadow: 0 0 1px #050b45;
+  /* text-shadow: 0 0 1px #050b45; */
+  content: '';
+  position: absolute;
+  /* width: .4em;
+  height: .4em; */
+  /* background-color:white; */
+  justify-content: center;
+  border: 3px solid transparent;
+  border-color: white transparent transparent;
+  opacity: .5;
 
-  font-weight: 200;
+  /* left: -1.25em; */
   /* position: relative; */
+
 }
 
 span:hover{
