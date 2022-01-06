@@ -7,7 +7,7 @@ function setup(){
   var read_btn = document.getElementById('btn-read');
   var cover = document.getElementsByClassName('book-cover');
   var nav_btn = document.getElementsByClassName('nav-btn');
-  console.log(cover[0]);
+  console.log(document.querySelectorAll('.pages span'));
 
   read_btn.addEventListener("click", function (){
 
